@@ -1,5 +1,4 @@
 test_cases = [
-    # SADNESS
     {
         "emotion": "sadness",
         "input": "I feel so empty and lost today, like nothing I do matters anymore.",
@@ -26,7 +25,6 @@ test_cases = [
         "reference": "When joy feels out of reach, it can be really exhausting. I hear you, and I hope things start to feel lighter soon."
     },
 
-    # ANGER
     {
         "emotion": "anger",
         "input": "I'm so furious right now. My coworker took credit for my work again and no one did anything.",
@@ -53,7 +51,6 @@ test_cases = [
         "reference": "Being dismissed when you've clearly communicated your needs is deeply frustrating. Your feelings of anger are completely justified."
     },
 
-    # JOY
     {
         "emotion": "joy",
         "input": "I just got accepted into my dream university! I can't stop smiling, I worked so hard for this.",
@@ -80,7 +77,6 @@ test_cases = [
         "reference": "What exciting news! A new addition to the family is such a joyful thing and your excitement is completely contagious."
     },
 
-    # ANXIETY
     {
         "emotion": "anxiety",
         "input": "I have a big presentation tomorrow and I can't sleep. My mind keeps racing with everything that could go wrong.",
@@ -107,7 +103,6 @@ test_cases = [
         "reference": "Uncertainty about the future is something so many people struggle with. It's okay not to have everything figured out right now."
     },
 
-    # CALM
     {
         "emotion": "calm",
         "input": "I just got back from a long walk in the park. I feel peaceful and clear-headed for the first time in weeks.",

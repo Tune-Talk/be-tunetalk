@@ -6,16 +6,18 @@
 - **uv** (Python package manager) — [install guide](https://docs.astral.sh/uv/#installation)
 - **HuggingFace account** with access token (for model downloads)
 
-## Step 1 — Clone the Repository
+## Documentation
+
+### Step 1 - Clone the Repository
 
 ```bash
 git clone https://github.com/Tune-Talk/be-tunetalk.git
 cd be_model-tunetalk
 ```
 
-> Replace `<your-org>` with the actual GitHub org/username.
+> Fork this repository first! Replace `<your-org>` with the actual GitHub org/username.
 
-## Step 2 — Configure Environment
+### Step 2 - Configure Environment
 
 Copy the example env file and fill in your HuggingFace token:
 
@@ -31,7 +33,9 @@ HF_TOKEN=hf_your_actual_token_here
 
 Create your token at: <https://huggingface.co/settings/tokens>
 
-## Step 3 — Install Dependencies
+> So it can access the emotion detection model faster
+
+### Step 3 - Install Dependencies
 
 ```bash
 uv sync
@@ -39,7 +43,7 @@ uv sync
 
 This reads `pyproject.toml` + `uv.lock` and installs all packages into a local `.venv`.
 
-## Step 4 — Verify Dataset File
+### Step 4 - Verify Dataset File
 
 The app expects the Spotify lyrics CSV at:
 
@@ -49,7 +53,7 @@ nlp preprocessing/dataset-cleaning/cleaned_spotify_lyrics.csv
 
 Ensure this file exists. It is required for playlist generation.
 
-## Step 5 — Run the Server
+### Step 5 - Run the Server
 
 ```bash
 uv run python run.py
@@ -57,7 +61,7 @@ uv run python run.py
 
 The Flask dev server starts at <http://localhost:5001> with debug mode on.
 
-## Step 6 — Test the API
+### Step 6 - Test the API
 
 Health check:
 

@@ -13,7 +13,6 @@ api-documentation.md
 test-case.md
 
 nlp preprocessing/dataset-raw/README-trending-spotify.md
-nlp preprocessing/dataset-raw/universal_top_spotify_songs.csv
-nlp preprocessing/dataset-cleaning/cleaned_spotify_lyrics.backup.csv
-nlp preprocessing/dataset-cleaning/cleaned_spotify_lyrics.all_countries.csv
-echo "nlp preprocessing/dataset-raw/universal_top_spotify_songs.csv" >> .gitignore
+project-context.md
+project-pipeline.md
+data-cleaned-structure.md
