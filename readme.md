@@ -48,7 +48,7 @@ This reads `pyproject.toml` + `uv.lock` and installs all packages into a local `
 The app expects the Spotify lyrics CSV at:
 
 ```
-nlp preprocessing/dataset-cleaning/cleaned_spotify_lyrics.csv
+nlp-preprocessing/dataset-cleaning/cleaned_spotify_lyrics.csv
 ```
 
 Ensure this file exists. It is required for playlist generation.

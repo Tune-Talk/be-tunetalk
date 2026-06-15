@@ -67,5 +67,5 @@ SIMILARITY_THRESHOLD = 0.3
 
 CSV_PATH = os.path.join(
     Path(__file__).resolve().parent.parent,
-    "nlp preprocessing", "dataset-cleaning", "cleaned_spotify_lyrics.csv"
+    "nlp-preprocessing", "dataset-cleaning", "cleaned_spotify_lyrics.csv"
 )
